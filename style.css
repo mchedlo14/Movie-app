@@ -1,0 +1,123 @@
+
+.parent-container{
+    width: 100%;
+    height: auto;
+    background-color: #222A31;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.movie-container{
+    width: 290px;
+    height: 300px;
+    margin-top: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    position: relative;
+}
+.movie-container:hover .overview-container{
+    display: block;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 95%;
+    height: 30px;
+}
+.img{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+p{
+    color: whitesmoke;
+    font-size: 13px;
+}
+.overview-container{
+    background-color: #445769;
+    width: 100%;
+    height: 187px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 4px;
+    display: none;
+    transition: all 5s;
+}
+.overview-text{
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    color: #222A31;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+}
+
+/*************** slider ************/
+
+.swiper{
+    height: 400px;
+}
+.swiper-slide{
+    background-color: #222A31;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 60px;
+}
+.slider-box{
+    width: 290px;
+    height: 300px;
+    margin-top: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    position: relative;
+}
+#slider-box-img-first{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+#slider-box-img-second{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+#slider-box-img-third{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+#slider-box-img-four{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+.page-not-found{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 150px;
+    display: none;
+}
+.page-not-found-text{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.loader-container{
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 200px;
+    display: block;
+}
+.fa-film{
+    font-size: 50px;
+}
